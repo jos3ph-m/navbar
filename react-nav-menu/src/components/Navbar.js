@@ -15,7 +15,11 @@ import {IconContext} from "react-icons/lib"
 function Navbar() {
     return (
         <>
-            
+            <nav className='navbar'>
+                <div className="navbar-container container">
+                    <Link to="/" className="navbar-logo" />
+                </div>
+            </nav>
         </>
     )
 }
