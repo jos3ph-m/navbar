@@ -19,6 +19,7 @@ function Navbar() {
                 <div className="navbar-container container">
                     <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
                         <GiRocketThruster className='navbar-icon' />
+                        Skye
                     </Link>
                 </div>
             </nav>
