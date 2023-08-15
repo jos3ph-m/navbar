@@ -17,7 +17,9 @@ function Navbar() {
         <>
             <nav className='navbar'>
                 <div className="navbar-container container">
-                    <Link to="/" className="navbar-logo" onClick={closeMobileMenu}/>
+                    <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+                        <GiRocketThruster className='navbar-icon' />
+                    </Link>
                 </div>
             </nav>
         </>
