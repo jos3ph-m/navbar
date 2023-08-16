@@ -5,6 +5,7 @@ import {
   RouterProvider,
   Route,
   Link,
+  Outlet,
 } from "react-router-dom";
 import Home from "./routes/Home";
 import About from "./routes/About";
@@ -15,6 +16,7 @@ const AppLayout = () => {
   return (
     <>
       <Navbar/>
+      <Outlet />
     </>
   )
 }
