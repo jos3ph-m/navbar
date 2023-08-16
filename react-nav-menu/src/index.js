@@ -9,6 +9,15 @@ import {
 import Home from "./routes/Home";
 import About from "./routes/About";
 import Contact from "./routes/Contact"
+import Navbar from "./components/Navbar";
+
+const AppLayout = () => {
+  return (
+    <>
+      <Navbar/>
+    </>
+  )
+}
 
 const router = createBrowserRouter([
   {
