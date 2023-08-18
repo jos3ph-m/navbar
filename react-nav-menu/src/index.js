@@ -24,20 +24,22 @@ const AppLayout = () => {
 const router = createBrowserRouter([
   {
     element: <AppLayout />,
-    children: []
+    children: [
+      {
+      path: "/",
+      element: <Home />,
+      },
+      {
+      path: "about",
+      element: <About />,
+      },
+      {
+      path: "contact",
+      element: <Contact />
+      }
+    ]
   },
-  {
-    path: "/",
-    element: <Home />,
-  },
-  {
-    path: "about",
-    element: <About />,
-  },
-  {
-    path: "contact",
-    element: <Contact />
-  }
+  
 ]);
 
 createRoot(document.getElementById("root")).render(
