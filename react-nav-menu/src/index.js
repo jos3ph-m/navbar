@@ -23,6 +23,9 @@ const AppLayout = () => {
 
 const router = createBrowserRouter([
   {
+    element: <AppLayout />
+  },
+  {
     path: "/",
     element: <Home />,
   },
