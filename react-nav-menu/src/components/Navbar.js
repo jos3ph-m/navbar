@@ -18,7 +18,7 @@ function Navbar() {
             <nav className='navbar'>
                 <div className="navbar-container container">
                     <Link to="/" className="navbar-logo" >
-                        <GiRocketThruster className='navbar-icon' />
+                        <GiRocketThruster className='navbar-icon' onClick={closeMobileMenu}/>
                         Skye
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
