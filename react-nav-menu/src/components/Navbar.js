@@ -19,8 +19,9 @@ function Navbar() {
                 <div className="navbar-container container">
                     <Link to="/" className="navbar-logo" >
                         <GiRocketThruster className='navbar-icon' />
-                        Sky
+                        Skye
                     </Link>
+                    <div className="menu-icon"></div>
                 </div>
             </nav>
         </>
