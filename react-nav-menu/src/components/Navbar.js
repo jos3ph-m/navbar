@@ -22,7 +22,7 @@ function Navbar() {
                         Skye
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
-                        {click}
+                        {click ? <FaTimes /> : <FaBars />}
                     </div>
                 </div>
             </nav>
