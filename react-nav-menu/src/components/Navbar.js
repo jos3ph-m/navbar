@@ -21,7 +21,9 @@ function Navbar() {
                         <GiRocketThruster className='navbar-icon' />
                         Skye
                     </Link>
-                    <div className="menu-icon" onClick={handleClick}></div>
+                    <div className="menu-icon" onClick={handleClick}>
+                        {click}
+                    </div>
                 </div>
             </nav>
         </>
