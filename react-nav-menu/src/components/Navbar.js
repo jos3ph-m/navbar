@@ -13,6 +13,8 @@ import {FaBars, FaTimes} from "react-icons/fa"
 import {IconContext} from "react-icons/lib"
 
 function Navbar() {
+    const [click, setClick] = useState(false);
+    
     return (
         <>
             <nav className='navbar'>
