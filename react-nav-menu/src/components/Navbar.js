@@ -34,6 +34,7 @@ function Navbar() {
                     <div className="menu-icon" onClick={handleClick}>
                         {click ? <FaTimes /> : <FaBars />}
                     </div>
+                    <ul></ul>
                 </div>
             </nav>
         </>
