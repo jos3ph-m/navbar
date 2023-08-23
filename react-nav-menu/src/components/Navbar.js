@@ -35,7 +35,9 @@ function Navbar() {
                         {click ? <FaTimes /> : <FaBars />}
                     </div>
                     <ul className={click ? "nav-menu active" : "nav-menu"}>
-                        <li className="nav-item"></li>
+                        <li className="nav-item">
+                            <NavLink to="/" className={({ isActive }) => "nav-links" + (isActive ? " activated")}></NavLink>
+                        </li>
                     </ul>
                 </div>
             </nav>
