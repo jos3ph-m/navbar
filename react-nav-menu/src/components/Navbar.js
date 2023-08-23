@@ -36,7 +36,7 @@ function Navbar() {
                     </div>
                     <ul className={click ? "nav-menu active" : "nav-menu"}>
                         <li className="nav-item">
-                            <NavLink to="/" className={({ isActive }) => "nav-links" + (isActive ? " activated")}></NavLink>
+                            <NavLink to="/" className={({ isActive }) => "nav-links" + (isActive ? " activated": "")}></NavLink>
                         </li>
                     </ul>
                 </div>
