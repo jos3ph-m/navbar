@@ -1,3 +1,7 @@
 .nav-links {
     color: #fff;
 }
+
+.activated {
+    color: red;
+}
