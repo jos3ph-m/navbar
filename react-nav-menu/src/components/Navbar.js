@@ -42,7 +42,7 @@ function Navbar() {
                         </li>
                         <li className="nav-item">
                             <NavLink to="/about" className={({ isActive }) => "nav-links" + (isActive ? " activated": "")}>
-                                About
+                                
                             </NavLink>
                         </li>
                     </ul>
