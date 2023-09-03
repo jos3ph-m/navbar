@@ -46,8 +46,8 @@ function Navbar() {
                             </NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to="/content" className={({ isActive }) => "nav-links" + (isActive ? " activated": "")}>
-                                Content
+                            <NavLink to="/contact" className={({ isActive }) => "nav-links" + (isActive ? " activated": "")}>
+                                Contact
                             </NavLink>
                         </li>
                     </ul>
