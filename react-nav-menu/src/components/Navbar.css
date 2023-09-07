@@ -1,7 +1,5 @@
-.nav-links {
-    color: lime;
-}
-
-.activated {
-    color: red;
-}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
