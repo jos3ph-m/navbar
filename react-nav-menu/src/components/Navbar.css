@@ -91,7 +91,7 @@
     }
   
     .nav-menu {
-      display: flex;
+      display: flexbox;
       flex-direction: column;
       width: 100%;
       position: absolute;
