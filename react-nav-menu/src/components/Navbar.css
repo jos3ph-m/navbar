@@ -133,7 +133,7 @@
     .navbar-logo {
       position: absolute;
       top: 0;
-      left: 0;
+      left: 2;
       transform: translate(25%, 50%);
     }
   
